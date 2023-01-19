@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Exo2';
+  font-style: normal;
+  src: local('Exo2'), url(./assets/fonts/Exo2.0-Thin.woff2) format('truetype');
+}
+
+@layer base {
+  html {
+    font-family: Exo2, system-ui, sans-serif;
+  }
+}
+
+
+@layer components {
+  .comments {
+    @apply cursor-pointer text-white text-center py-2 font-extra;
+  }
+}
