@@ -32,7 +32,7 @@ const Main = () => {
     <main>
       <section
         id='cats'
-        className="bg-[url('/src/assets/back.webp')] w-full h-full"
+        className="bg-[url('/src/assets/back.webp')] w-full h-full min-h-[1080px]"
       >
         <h2
           className='text-4xl text-center text-white font-thin tracking-[5px] mb-[25px]'
