@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import catUrl from '../assets/cat.webp';
 
 const Card = ({food, portions, mouseNumber, weight, comment, disable}) => {
   const [isFocus, setIsFocus] = useState(false);
@@ -46,7 +47,7 @@ const Card = ({food, portions, mouseNumber, weight, comment, disable}) => {
         </span>
 
         <img
-          src="/src/assets/cat.webp"
+          src={catUrl}
           alt="kitten"
           className='absolute -bottom-20 -left-6'
         />
